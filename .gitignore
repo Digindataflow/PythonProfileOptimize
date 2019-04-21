@@ -1,0 +1,5 @@
+.vscode
+build/
+__pycache__
+*.pdf
+/line_profiler
