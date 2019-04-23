@@ -1,6 +1,6 @@
 """
 run cython -a cythonfn.pyx to see html file
-run python setup.py build_ext --inplace to compile
+run python setup.py build_ext --inplace --compiler=msvc to compile
 """
 
 import calculate # as defined in setup.py
