@@ -17,3 +17,7 @@ cdef extern from "header.h":
         union_members
     ctypedef enum enum_alias:
         enum_members
+
+# provide function alias. _print can be used in cython now
+cdef extern from "printer.h":
+    void _print "print"(fmt_str, arg)
